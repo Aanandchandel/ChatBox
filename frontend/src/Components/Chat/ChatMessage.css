@@ -1,0 +1,11 @@
+.ChatMessageBox{
+display: flex;
+flex-direction: column;
+/* flex-wrap: wrap; */
+overflow-y: scroll;
+    /* border-bottom: 3px solid yellow; */
+    /* height: 88vh; */
+    height: 78vh;
+    /* overflow: hidden; */
+    background-color: rgb(218, 214, 211);
+}

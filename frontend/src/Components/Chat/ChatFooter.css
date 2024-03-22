@@ -1,0 +1,88 @@
+.ChatMessage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 9vh;
+    
+}
+.ChatMessage>img{
+    margin-right: 1rem;
+    height: 50%;
+    /* align-self: self-end; */
+
+}
+.ChatMessageFileInputbtn{
+    position: relative;
+    right: 2rem;
+    /* z-index: 3; */
+ /* border: 1px solid red;   */
+ width: 2rem; 
+ opacity: 0;
+
+}
+.ChatMessageinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 3rem;
+}
+.ChatMessageinput>img{
+    height: 2.5rem ;
+}
+.ChatMessagetext{
+    font-weight: 700;
+    padding:4px ;
+    padding-left: 1rem;
+    
+
+    
+    width: 100%;
+    height: 2rem;
+    margin-right: 1.5rem;
+}
+
+.ChatTimestamp,
+.RecivedMessage
+ ,.SentMessage{
+    background-color: rgb(192, 209, 224);
+    position: relative;
+    
+    margin-left: 1rem;
+    /* padding-right:rem ; */
+    
+    padding: 0.5rem;
+    margin-bottom: 5px;
+    display: flex;
+    float: right;
+    /* border: 1px solid black; */
+    flex-direction: column;
+     word-wrap: break-word; /* For older browser compatibility */
+    /* overflow-wrap: break-word;  */
+    /* text-overflow: ellipsis; */
+    /* overflow-x: hidden; */
+/* background-color: black; */
+    max-width:50%;
+    min-width:30%;
+}
+.RecivedMessage{
+    border-radius: 0rem 1rem 1rem 2rem;
+}
+.SentMessage{
+    margin-left: 1rem;
+    border-radius: 1rem 0rem 2rem 1rem;
+    right: -375px;
+}
+.ChatTimestamp{
+    padding: 2px;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    left:200px
+    ;font-size: 0.7rem
+    ;max-width: 3%;
+    ;background-color: transparent; 
+    
+}

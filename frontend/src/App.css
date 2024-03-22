@@ -1,0 +1,23 @@
+*{
+
+  padding: 0%;
+  margin: 0%;
+}
+.App{
+  overflow-y: scroll;
+  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+  border: 1px solid red;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(30, 30, 30, 0.3);
+  /* background-color:aliceblue; */
+}
+*::-webkit-scrollbar{
+  display: none;
+  overflow-x: hidden;
+}

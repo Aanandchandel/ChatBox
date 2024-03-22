@@ -1,0 +1,17 @@
+.Chat{
+    height: 80%;
+    
+    width: calc(100% - 40vw);
+   
+   border-left: 1px solid black; /* background-color: black; */
+}
+@media(min-width:10px)and (max-width:600px)
+{
+.Chat{
+display: none;
+    /* width: 100%; */
+    
+}
+}
+
+
