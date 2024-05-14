@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./ChatBox.css";
 import "./ChatItem.css"
 const ChatBox = () => {
@@ -43,6 +44,7 @@ const SearchBarr = () => {
   );
 };
 const Nav = () => {
+  const [fackstate,setFackState]=useState(true)
   return (
     <div className="chatBoxNav">
       <img
@@ -66,7 +68,7 @@ const Nav = () => {
           src="https://static.thenounproject.com/png/3750523-200.png"
           alt="ing"
         />
-        <div className="navMoreIcon">
+        <div onClick={()=>{   setFackState(!fackstate); localStorage.removeItem("user")}} className="navMoreIcon">
           {" "}
           <div></div>
           <div></div>
